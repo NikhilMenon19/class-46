@@ -40,7 +40,7 @@ if(keyDown("DOWN")){
 
 shooter.collide(edges)
 
-if(keyDown("enter") && frameCount%4===0){
+if(keyDown("enter") && frameCount%9===0){
   bullet=createSprite(shooter.x-130,shooter.y+10)
   bullet.addImage(guddu)
   bullet.velocityX=-16
